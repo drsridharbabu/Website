@@ -1040,6 +1040,14 @@ li.social-links a {
     margin: 0;
 }
 
+@media (min-width: 992px) {
+    .col-lg-4.col-md-4.col-sm-6 {
+      margin: 0 auto;
+      float: none;
+    }
+  }
+
+
 .service-widget h3 a,
 .section.wb .service-widget h3,
 .section.lb .service-widget h3 {
