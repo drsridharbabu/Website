@@ -5,11 +5,11 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <title>Dr K Sridhar Babu</title>
-   <meta name="keywords" content="">
-   <meta name="description" content="An experienced Paderatric Pulmonologist in the city of Pattukkottai">
+   <meta name="keywords" content="drsridhar, sridharbabu, padeatric, pulmonologist, pattukottai, padeatiric pulmonologist, adult, doctor, prana, clinic, prana hospital, lungs, lungs doctor, dr sridhar babu, sridhar babu, sridharbabu, babu pulmologist, old doctor, 20 years experience, lungs doctor, lungs, prana lungs clinic, dr sridhar, babu dr, pattukottai, patukkotai, pattukkotai, patukkottai, dr, doctor sridhar, doctor sridhar babu, doctor sridhar, doctor lungs, lungs doctor, experienced doctor in pattukottai, experienced doctor in patukotai, lungs Specialist pattukottai, sridhar doctor pattukottai, prana hospital pattukkottai">
+   <meta name="description" content="An experienced Paderatric and Adult Pulmonologist in the city of Pattukkottai">
    <meta name="author" content="Abarna V and Ragul Adhithya M">
-   <link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
-   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+   <link rel="shortcut icon" href="images/favicon2.png" type="image/x-icon" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="css/colors.css">
@@ -21,7 +21,7 @@
    #home{
       background-image:url('images/about_03.jpeg');
    }
-   @media only screen and (max-width: 867px) {
+   @media only screen and (max-width: 991px) {
       #home {
         background-image: url('images/entrance.jpeg');
         color: #fff;
@@ -77,8 +77,8 @@
                      <ul class="nav navbar-nav">
                         <li><a data-scroll href="#home">Home</a></li>
                         <li><a data-scroll href="#about">About us</a></li>
+                         <li><a data-scroll href="#doctors">Doctors</a></li>
                         <li><a data-scroll href="#gallery">Gallery</a></li>
-                        <li><a data-scroll href="#doctors">Doctors</a></li>
 						      <!-- <li><a data-scroll href="#testimonials">Testimonials</a></li> -->
                         <li><a data-scroll onclick="blogpage()">Blogs</a></li>
                         <li><a data-scroll href="#getintouch">Contact</a></li>
@@ -96,14 +96,28 @@
             <div class="row">
                <div class="col-md-12 col-sm-12">
                   <div class="text-contant">
-                     <h2>
-                        <span class="center"><span class="icon"><img src="images/icon-logo.png" alt="#" /></span></span>
-                        <!-- <a href="" class="typewrite" style="color: yellow; font-weight: bold;" data-period="2000" data-type='[ "Welcome to Pranaa Hospital", "We Care Your Health", "We are best!" ]'> -->
-                        <a href="" style="color: yellow; font-weight: bold;">Welcome to Pranaa Hospital</a>
-                        <span class="wrap"></span>
-                        </a>
-                     </h2>
-                  </div>
+   <h2>
+      <span class="center"><span class="icon"><img src="images/icon-logo.png" alt="#" /></span></span>
+      <a href="" style="color: magenta; font-weight: bold;" class="link-color">Welcome to Pranaa Hospital</a>
+      <style>
+         /* Laptop View */
+         @media screen and (min-width: 992px) {
+            .link-color {
+               color: green !important;
+            }
+         }
+
+         /* Mobile View */
+         @media screen and (max-width: 991px) {
+            .link-color {
+               color: yellow !important;
+            }
+         }
+      </style>
+      <span class="wrap"></span>
+   </h2>
+</div>
+
                </div>
             </div>
          </div>
@@ -126,8 +140,8 @@
                      <h3>Working Hours</h3>
                      <div class="time-table-section">
                         <ul>
-                           <li><span class="left">Monday - Friday</span><span class="right">9.00 – 7.00</span></li>
-                           <li><span class="left">Saturday</span><span class="right">9.00 – 5.00</span></li>
+                           <li><span class="left">Monday - Friday</span><span class="right">9.00 – 19.00</span></li>
+                           <li><span class="left">Saturday</span><span class="right">9.00 – 17.00</span></li>
                            <li><span class="left">Sunday ( Online )</span><span class="right">7.00pm – 9.00pm</span></li>
                         </ul>
                      </div>
@@ -158,7 +172,7 @@
                   <div class="message-box">
                      
                      <h4>About US</h4>
-                     <p class="lead">Prana Hospital is managed by Dr Sridhar Babu. Dr. K.Sridhar babu is a renowned and experienced Pulmonology in Pattukkottai. He brings with him an experience of 20+ years and has been associated with some of the best hospitals in Pattukkottai. A dedicated compassionate doctor who handles many challenging cases with the latest cutting edge technology. He offers patient-friendly scientific advice to your problems while maintaining the highest professional and ethical values.</p>
+                     <p class="lead">Prana Hospital is managed by Dr Sridhar Babu. Dr. K.Sridhar babu is a renowned and experienced Pulmonologist in Pattukkottai. He brings with him an experience of 20+ years and has been associated with some of the best hospitals in Pattukkottai. A dedicated compassionate doctor who handles many challenging cases with the latest cutting edge technology. He offers patient-friendly scientific advice to your problems while maintaining the highest professional and ethical values.</p>
                   </div>
                </div>
                <div class="col-md-6">
@@ -170,81 +184,6 @@
             </div>
             <hr class="hr1">
             
-         </div>
-      </div>
-
-      <div id="gallery" class="section wow fadeIn">
-         <div class="container">
-            <div class="row">
-               <div class="heading">
-                  <br>
-                  <h2>Gallery</h2>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                  <div class="service-widget">
-                     <div class="post-media wow fadeIn">
-                        <a href="images/about_03.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="images/about_03.jpeg" alt="" class="img-responsive">
-                     </div>
-                     <h3>Entrance</h3>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                  <div class="service-widget">
-                     <div class="post-media wow fadeIn">
-                        <a href="images/waiting_hall.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="images/waiting_hall.jpeg" alt="" class="img-responsive">
-                     </div>
-                     <h3>Waiting Halls</h3>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                  <div class="service-widget">
-                     <div class="post-media wow fadeIn">
-                        <a href="images/waiting_hall2.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="images/waiting_hall2.jpeg" alt="" class="img-responsive">
-                     </div>
-                     
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                  <div class="service-widget">
-                     <div class="post-media wow fadeIn">
-                        <a href="images/lab.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="images/lab.jpeg" alt="" class="img-responsive">
-                     </div>
-                     <h3>Lab</h3>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                  <div class="service-widget">
-                     <div class="post-media wow fadeIn">
-                        <a href="images/pharmacy.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="images/pharmacy.jpeg" alt="" class="img-responsive">
-                     </div>
-                     <h3>Pharmacy</h3>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                  <div class="service-widget">
-                     <div class="post-media wow fadeIn">
-                        <a href="images/viewing_patient.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="images/viewing_patient.jpeg" alt="" class="img-responsive">
-                     </div>
-                     <h3>Viewing Patients</h3>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                  <div class="service-widget">
-                     <div class="post-media wow fadeIn">
-                        <a href="images/view_pat.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="images/view_pat.jpeg" alt="" class="img-responsive">
-                     </div>
-                  </div>
-               </div>
-            </div>
          </div>
       </div>
 
@@ -283,14 +222,23 @@
                         <div class="widget-title">
                            <br>
                             <h3>Sridhar Babu</h3>
-                            <small>Pulmonologist</small>
+                            <small>Specialized in Pulmonology</small>
                         </div>
                         <!-- end title -->
-                        <p>Hello, I am Sridhar. An Pediatric Pulmonologist with more than 20 years of experience. Want to know more about me check out on youtube</p>
-
+                        <p>I am Sridhar. I am basically from a remote village Elayirampannai ( VIrudhunagar District ). <br> I have done my bachelor degree from Ramachandra Medical College. Pulmonology speciliazition in MMC.<br>
+                           I have a vast experience in the field of pulmonology, treated more than <strong> 5 lakh patients</strong>. I am efficient in differential diagnosisof lungs, heart, kidney and neural diseases<br>Check out my youtube channel to educate yourself regarding the different ailments
                         <div class="footer-social">
-                            <a href="https://www.youtube.com/@drsrithar75" target="_blank" class="btn grd1"><i class="fa fa-youtube"></i></a>
-                        </div>
+   <a href="https://www.youtube.com/@drsrithar75" target="_blank" class="btn">
+      <i class="fa-brands fa-youtube fa-3x" style="color: #eb0000;"></i>
+   </a>
+   <style>
+      .footer-social .btn {
+         background-color: transparent !important;
+         border-color: transparent !important;
+      }
+   </style>
+</div>
+
                     </div>
                 </div>
 
@@ -315,6 +263,74 @@
             </div>
         </div>
     </div>
+
+      <div id="gallery" class="section wow fadeIn">
+         <div class="container">
+            <div class="row">
+               <div class="heading">
+                  <br>
+                  <h2>Gallery</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/waiting_hall.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/waiting_hall.jpeg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Waiting Room</h3>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/waiting_hall2.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/waiting_hall2.jpeg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Receiving Hall</h3>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/lab.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/lab.jpeg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Lab</h3>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/pharmacy.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/pharmacy.jpeg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Pharmacy</h3>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/viewing_patient.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/viewing_patient.jpeg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Examination Rooms</h3>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/view_pat.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/view_pat.jpeg" alt="" class="img-responsive">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      
 
       <div id="bookappointment" class="services wow fadeIn">
          <div class="container">
